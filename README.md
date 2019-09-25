@@ -15,6 +15,8 @@ La prueba está dividida en 4 partes:
 
 ## Primeros pasos
   ##### Haz fork a este repo, clonalo y comienza a trabajar sobre ese mismo. Al final, para el entregable se revisará este repo.
+  #### Tips: Puedes usar cualquier libreria o framework que te facilite las cosas, buscar en internet y guiarte de muchos recursos. Lo único que no está permitido es robar código de forma completa.
+  #### Happy coding 🔥
 
 ## Parte 1: Creación del proyecto Node JS y diseño de la BD relacional/no relacional.
 ```
@@ -53,8 +55,6 @@ La prueba está dividida en 4 partes:
 ```
 ## Últimos pasos 
 ```
-  -
-  -
-  -
-  -
+  -Sí llegaste hasta aqu te felicito, hiciste un buen trabajo y gracias por aplicar a una vacante con nosotros.
+  -Síno terminaste, uno te desanimes. Uno de los puntos más importantes que consideramos es la forma en la que trataste de resolver los problemas. 😎
 ```
