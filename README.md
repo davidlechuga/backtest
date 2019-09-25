@@ -28,10 +28,13 @@ La prueba está dividida en 4 partes:
 ```
 ## Parte 2: Creación y diseño e una API RestFull en NodeJS.
 ```
-  -
-  -
-  -
-  -
+  - Crea rutas y useCases para el manejo de la BD con un endpoint por verbo http y por tabla:
+    -Ejemplo: localhost:3000/miAPI.com/trabajadores/    GET
+    -Ejemplo: localhost:3000/miAPI.com/trabajadores/    POST
+    -Ejemplo: localhost:3000/miAPI.com/trabajadores/    PATCH
+    -Ejemplo: localhost:3000/miAPI.com/trabajadores/    DELETE
+  -En total se debe tener una carpeta de rutas por tabla con sus endpoints.
+  -Prueba tu API usando cualquier software de tu conocimiento.
 ```
 ## Parte 3: Creación de vistas o templates desde el servidor o un frontend separado usando tecnologias modernas.
 ```
