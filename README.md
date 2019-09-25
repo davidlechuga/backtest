@@ -8,7 +8,7 @@ Prueba técnica de backend para prospectos que busca evaluar conocimientos en AP
 La prueba está dividida en 4 partes:
 ```
   -Primera: Creación del proyecto en NodeJS, creación de la BD relacional/no relacional.
-  -Segunda: Creación y diseño e una API RestFull en NodeJS.
+  -Segunda: Creación y diseño de una API RestFull en NodeJS.
   -Tercera: Creación de vistas o templates desde el servidor o un frontend separado usando tecnologias modernas.
   -Cuarta: Deploy de la BD, backend y frontend en la nube. 
 ```
@@ -16,25 +16,28 @@ La prueba está dividida en 4 partes:
 ## Primeros pasos
   ##### Haz fork a este repo, clonalo y comienza a trabajar sobre ese mismo. Al final, para el entregable se revisará este repo.
   #### Tips: Puedes usar cualquier libreria o framework que te facilite las cosas, buscar en internet y guiarte de muchos recursos. Lo único que no está permitido es robar código de forma completa.
+  #### Ve haciendo varios commits por avance, también evaluamos la forma en que manejas Git.
   #### Happy coding 🔥
 
 ## Parte 1: Creación del proyecto Node JS y diseño de la BD relacional/no relacional.
 ```
   -Crea el proyecto, instala dependencias y monta un servidor web usando express JS
-  -Diseño una BD relacional en MySQL o noSQL en MongoDB que tenga las siguientes carácteristicas:
+  -Diseña una BD relacional en MySQL o noSQL en MongoDB que tenga las siguientes carácteristicas:
     -Login de usuarios con email y contraseña
-    -Trabajadores
-    -Areas de trabajo
-    -Nómina
+    -Trabajadores (información de los trabajadores)
+    -Areas de trabajo (áreas de una empresa cualquiera)
+    -Nómina (horas de trabajo, idTrabajador, pagos y deducciones)
    -Conecta la BD al proyecto
 ```
-## Parte 2: Creación y diseño e una API RestFull en NodeJS.
+## Parte 2: Creación y diseño de una API RestFull en NodeJS.
 ```
   - Crea rutas y useCases para el manejo de la BD con un endpoint por verbo http y por tabla:
     -Ejemplo: localhost:3000/miAPI.com/trabajadores/    GET
     -Ejemplo: localhost:3000/miAPI.com/trabajadores/    POST
     -Ejemplo: localhost:3000/miAPI.com/trabajadores/    PATCH
     -Ejemplo: localhost:3000/miAPI.com/trabajadores/    DELETE
+    -Los cuatro para la tabla trabajadores
+    -La única que solo será GET es la de login de usuarios. Tu ingresa dos usuarios de prueba de forma manual en la BD.
   -En total se debe tener una carpeta de rutas por tabla con sus endpoints.
   -Prueba tu API usando cualquier software de tu conocimiento.
 ```
@@ -55,6 +58,6 @@ La prueba está dividida en 4 partes:
 ```
 ## Últimos pasos 
 ```
-  -Sí llegaste hasta aqu te felicito, hiciste un buen trabajo y gracias por aplicar a una vacante con nosotros.
-  -Síno terminaste, uno te desanimes. Uno de los puntos más importantes que consideramos es la forma en la que trataste de resolver los problemas. 😎
+  -Sí llegaste hasta aqui te felicito, hiciste un buen trabajo y gracias por aplicar a una vacante con nosotros.
+  -Síno terminaste, no te desanimes. Uno de los puntos más importantes que consideramos es la forma en la que trataste de resolver los problemas. 😎
 ```
