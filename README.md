@@ -27,9 +27,30 @@ La prueba está dividida en 4 partes:
    -Conecta la BD al proyecto
 ```
 ## Parte 2: Creación y diseño e una API RestFull en NodeJS.
-
+```
+  -
+  -
+  -
+  -
+```
 ## Parte 3: Creación de vistas o templates desde el servidor o un frontend separado usando tecnologias modernas.
-
+```
+  -
+  -
+  -
+  -
+```
 ## Parte 4: Deploy de la BD, backend y frontend en la nube. 
-
+```
+  -
+  -
+  -
+  -
+```
 ## Últimos pasos 
+```
+  -
+  -
+  -
+  -
+```
