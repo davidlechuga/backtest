@@ -6,7 +6,7 @@ Prueba técnica de backend para prospectos que busca evaluar conocimientos en AP
 
 ## Estructura de la prueba
 La prueba está dividida en 4 partes
--Primera: Creación del proyecto en NodeJS, creación de la BD relacional.
--Segunda: Creación y diseño de una API RestFull en NodeJS.
--Tercera: Creación de vistas o templates desde el servidor o un frontend separado usandi tecnologias modernas.
--Cuarta: Deploy de la BD, backend y frontend en la nube. 
+#Primera: Creación del proyecto en NodeJS, creación de la BD relacional.
+#Segunda: Creación y diseño de una API RestFull en NodeJS.
+#Tercera: Creación de vistas o templates desde el servidor o un frontend separado usandi tecnologias modernas.
+#Cuarta: Deploy de la BD, backend y frontend en la nube. 
