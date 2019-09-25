@@ -8,7 +8,7 @@ Prueba técnica de backend para prospectos que busca evaluar conocimientos en AP
 La prueba está dividida en 4 partes:
 ```
   -Primera: Creación del proyecto en NodeJS, creación de la BD relacional/no relacional.
-  -Segunda: Creación y diseño de una API RestFull en NodeJS.
+  -Segunda: Creación y diseño e una API RestFull en NodeJS.
   -Tercera: Creación de vistas o templates desde el servidor o un frontend separado usando tecnologias modernas.
   -Cuarta: Deploy de la BD, backend y frontend en la nube. 
 ```
@@ -16,7 +16,7 @@ La prueba está dividida en 4 partes:
 ## Primeros pasos
   ##### Haz fork a este repo, clonalo y comienza a trabajar sobre ese mismo. Al final, para el entregable se revisará este repo.
 
-## Parte 1: Creación del proyecto Node JS y diseño de la BD relacional/no relacional
+## Parte 1: Creación del proyecto Node JS y diseño de la BD relacional/no relacional.
 ```
   -Crea el proyecto, instala dependencias y monta un servidor web usando express JS
   -Diseño una BD relacional en MySQL o noSQL en MongoDB que tenga las siguientes carácteristicas:
@@ -26,10 +26,10 @@ La prueba está dividida en 4 partes:
     -Nómina
    -Conecta la BD al proyecto
 ```
-## Parte 2: 
+## Parte 2: Creación y diseño e una API RestFull en NodeJS.
 
-## Parte 3:
+## Parte 3: Creación de vistas o templates desde el servidor o un frontend separado usando tecnologias modernas.
 
-## Parte 4:
+## Parte 4: Deploy de la BD, backend y frontend en la nube. 
 
-## Últimos pasos
+## Últimos pasos 
