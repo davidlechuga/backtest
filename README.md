@@ -45,10 +45,11 @@ La prueba está dividida en 4 partes:
 ```
 ## Parte 4: Deploy de la BD, backend y frontend en la nube. 
 ```
-  -
-  -
-  -
-  -
+  -Sube tu base de datos a cualquier nube (mlab, mongo atlas, ibm cloud, firebase) o en caso de MySQL a 000webhost. 
+  - Haz el deploy de tu API a un servicio de cloud foundry en IBM Cloud.
+  - O también puedes subir tu API a heroku.
+  - En caso de haber creado tus vistas del frontend aparte, puedes subirlo a firebase o netlify. 
+  - Haz el último push de tu proyecto terminado. 
 ```
 ## Últimos pasos 
 ```
