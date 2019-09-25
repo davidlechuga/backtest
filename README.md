@@ -38,10 +38,10 @@ La prueba está dividida en 4 partes:
 ```
 ## Parte 3: Creación de vistas o templates desde el servidor o un frontend separado usando tecnologias modernas.
 ```
-  -
-  -
-  -
-  -
+  - Crea una vista que consuma cada endpoint de cada tabla.
+  - Puedes usar templates como hbs, pug, etc. O un framework como react, angular, vue. 
+  - Muestra los datos de forma ordenada.
+  - Plus (opcional): Crea las vistas de forma responsive.
 ```
 ## Parte 4: Deploy de la BD, backend y frontend en la nube. 
 ```
