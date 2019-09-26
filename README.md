@@ -61,3 +61,4 @@ La prueba está dividida en 4 partes:
   -Sí llegaste hasta aqui te felicito, hiciste un buen trabajo y gracias por aplicar a una vacante con nosotros.
   -Síno terminaste, no te desanimes. Uno de los puntos más importantes que consideramos es la forma en la que trataste de resolver los problemas. 😎
 ```
+
