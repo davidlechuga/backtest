@@ -2,19 +2,15 @@ const express = require ('express')
 const router = express.Router()
 const trabajador = require('../usecases/trabajador')
 
+router.get ('/add', (req,res)=> {
+    res.render('partials/add.hbs')
+})
+
 
 router.get ('/', async (req,res) => {
-    const allTrabajadores = await trabajador.getAll()
-
-    res.json({
-        success: true,
-        message: 'All Trabajadores',
-        data: {
-            trabajadores: allTrabajadores
-        }
-
-    })
-})
+  
+    res.render('partials/all.hbs')
+})  
 
 
 router.post ('/', async (req,res) => {

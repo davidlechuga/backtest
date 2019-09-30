@@ -1,7 +1,6 @@
 const server = require ('./server')
 const dbConnect = require ('./src/lib/db')
 
-
 const listenServer = function() {
     return new Promise ((resolve, reject) =>{
         server.listen(8080, () => {
