@@ -40,6 +40,11 @@ const trabajadorSchema = new mongoose.Schema ({
         maxlength: 50,
         required: true
 
+    },
+    date: {
+        type: Date,
+        default: Date.now,
+        required: true
     }
 })
 

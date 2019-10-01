@@ -37,6 +37,8 @@ router.post('/partials/add.hbs', async (req,res) =>{
         errors.push ({ text: 'please write a description'});
     }
 
+
+
     if (errors.length > 0) {
         res.render('partials/add.hbs', {
             errors,
@@ -63,8 +65,9 @@ router.post('/partials/add.hbs', async (req,res) =>{
 
 
 router.get ('/', async (req,res) => {
-    res.render('partials/all.hbs')
-})  
+    const trabajador = await Trabajador.find().sort({date: 'desc'})
+    res.render('partials/all.hbs', {trabajador})
+});  
 
 
 
