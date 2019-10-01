@@ -1,12 +1,13 @@
 const Trabajador = require ('../models/trabajador')
 
-function create ({nombre, apellido, area, horasT, pagos}){
+function create ({nombre, apellido, area, horasT, pagos, description}){
     const nuevoTrabajador= new Trabajador ({
         nombre,
         apellido,
         area,
         horasT,
-        pagos
+        pagos,
+        description
     })
     return nuevoTrabajador.save()
 }
@@ -31,7 +32,8 @@ async function updateById (id, { nombre, apellido, area, horasT, pagos}) {
         apellido,
         area,
         horasT,
-        pagos
+        pagos,
+        description
 
     })
     return updateTrabajador

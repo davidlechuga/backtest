@@ -27,6 +27,8 @@
     "mongoose": "^5.7.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
     "session": "^0.1.0"
   }
 }

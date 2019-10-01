@@ -1,33 +1,46 @@
-<div class="col-md-4 mx-auto">
-    <div class="card">
-        <div class="card-header">
-            <h3>new worker</h3>
+{{#each errors}}
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{text}}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+{{/each}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h3>new worker</h3>
+                </div>
+                <div class="card-body">
+                    <form action="partials/add.hbs" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="nombre" class="form-control" placeholder="nombre" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="apellido" class="form-control" placeholder="apellido" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="area" class="form-control" placeholder="area" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="horasT" class="form-control" placeholder="horasT" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="pagos" class="form-control" placeholder="pagos" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="description" class="form-control" placeholder="Descrition">
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block" type="submit">save</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <form action="/">
-            <div class="form-group">
-                <input type="text" name="nombre" class="form-control" placeholder="nombre" autofocus>
-            </div>
-             <div class="form-group">
-                <input type="text" name="apellido" class="form-control" placeholder="apellido" autofocus>
-            </div>
-             <div class="form-group">
-                <input type="text" name="area" class="form-control" placeholder="area" autofocus>
-            </div>
-             <div class="form-group">
-                <input type="text" name="horasT" class="form-control" placeholder="horasT" autofocus>
-            </div>
-            <div class="form-group">
-                <input type="text" name="pagos" class="form-control" placeholder="pagos" autofocus>
-            </div>
-            <div class="form-group">
-                <textarea name="description" class="form-control" placeholder="Descrition">
-                </textarea>
-            </div>
-            <div class="form-group">
-                <button class="btn btn-primary btn-block" type="submit">save</button>
-            </div>
-            </form>
-        </div>
-    </div>>
+    </div>
 </div>

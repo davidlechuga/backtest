@@ -32,6 +32,14 @@ const trabajadorSchema = new mongoose.Schema ({
         type: Number,
         min: 1,
         required: true
+    },
+
+    description: {
+        type: String,
+        minlength: 5,
+        maxlength: 50,
+        required: true
+
     }
 })
 
